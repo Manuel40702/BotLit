@@ -2,4 +2,4 @@ supabase
 streamlit
 streamlit-cookies-manager
 
-echo -e "[supabase]\nSUPABASE_URL = \"${SUPABASE_URL}\"\nSUPABASE_KEY = \"${SUPABASE_KEY}\"" > .streamlit/secrets.toml
+echo -e "[supabase]\nSUPABASE_URL = \"${SUPABASE_URL}\"\nSUPABASE_KEY = \"${SUPABASE_KEY}\"" > /opt/render/project/src/.streamlit/secrets.toml

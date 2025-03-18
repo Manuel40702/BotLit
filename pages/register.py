@@ -2,8 +2,6 @@ import streamlit as st
 import re
 from config.supabase_config import supabase_config
 
-st.set_page_config("BotLit", layout="wide")
-
 def validar_email(email):
     patron = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
     return re.match(patron, email)

@@ -1,5 +1,4 @@
 supabase
 streamlit
 streamlit-cookies-manager
-
-echo -e "[supabase]\nSUPABASE_URL = \"${SUPABASE_URL}\"\nSUPABASE_KEY = \"${SUPABASE_KEY}\"" > /opt/render/project/src/.streamlit/secrets.toml
+python-dotenv

@@ -69,7 +69,7 @@ with st.sidebar:
             c2.button(" ",
                     icon=":material/delete:",
                     type="tertiary",
-                    key=f"delete_{item["chat_id"]}",
+                    key=f"delete_{item['chat_id']}",
                     on_click= sc.delete,
                     args=(item["chat_id"],)
                     )

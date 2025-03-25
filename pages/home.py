@@ -63,7 +63,7 @@ with st.sidebar:
             c1,c2 = st.columns([10,2])
             c1.button(item["name"], 
                     type="tertiary", 
-                    key=f"id_{item["chat_id"]}", 
+                    key=f"id_{item['chat_id']}", 
                     on_click=loadChat, 
                     args=(item["chat"],item["chat_id"]))
             c2.button(" ",

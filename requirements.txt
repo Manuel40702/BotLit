@@ -2,3 +2,4 @@ supabase
 streamlit
 streamlit-cookies-manager
 python-dotenv
+google.generativeai

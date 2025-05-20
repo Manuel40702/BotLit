@@ -50,6 +50,9 @@ with st.sidebar:
     
     user = sc.getUser(session)
     st.subheader(f":blue-background[Welcome: {user}]")
+    if st.button("Math Resolutor", icon=":material/calculate:", use_container_width=True):
+        st.switch_page("pages/MathResolutor.py")
+
     st.title("My Chats")
     if st.button("New Chat", icon=":material/add:", use_container_width=True):
         st.session_state.chat_id = str(uuid.uuid4())

@@ -3,3 +3,6 @@ streamlit
 streamlit-cookies-manager
 python-dotenv
 google.generativeai
+mediapipe
+streamlit_webrtc
+opencv-python

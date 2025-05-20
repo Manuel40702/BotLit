@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-genai.configure(api_key=os.getenv('GEMINI_KEY'))
+genai.configure(api_key=st.secrets["gemini"]["GEMINI_KEY"])
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # def generate_response(prompt):

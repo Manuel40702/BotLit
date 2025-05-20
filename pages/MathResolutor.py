@@ -31,7 +31,7 @@ hands = mp_hands.Hands(
 )
 
 # Configuración de Gemini
-genai.configure(api_key=os.getenv('GEMINI_KEY'))
+genai.configure(api_key=st.secrets["gemini"]["GEMINI_KEY"])
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Variables de estado
